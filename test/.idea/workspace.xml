@@ -13,6 +13,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/test@instance_vars.coverage" NAME="instance_vars Coverage Results" MODIFIED="1394557799870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
+    <SUITE FILE_PATH="coverage/test@if_test.coverage" NAME="if_test Coverage Results" MODIFIED="1395157215515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@test.coverage" NAME="test Coverage Results" MODIFIED="1394550112761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@count_down.coverage" NAME="count_down Coverage Results" MODIFIED="1394633897685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Countdown" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@twenty_min_ruby.coverage" NAME="twenty_min_ruby Coverage Results" MODIFIED="1395094649205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
@@ -32,60 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="system.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="instance_vars.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instance_vars.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialize.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/initialize.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="super.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/super.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="count_down.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Countdown/count_down.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="6" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1035">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tester.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Countdown/tester.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twenty_min_ruby" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twenty_min_ruby">
+      <file leaf-file-name="if_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/if_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="45" selection-start="947" selection-end="947" vertical-scroll-proportion="0.46043167" vertical-offset="558" max-vertical-offset="975">
+            <state line="5" column="25" selection-start="63" selection-end="63" vertical-scroll-proportion="0.17985612" vertical-offset="0" max-vertical-offset="417">
               <folding />
             </state>
           </provider>
@@ -123,6 +70,7 @@
         <option value="$PROJECT_DIR$/Countdown/count_down.rb" />
         <option value="$PROJECT_DIR$/Countdown/tester.rb" />
         <option value="$PROJECT_DIR$/twenty_min_ruby" />
+        <option value="$PROJECT_DIR$/if_test.rb" />
       </list>
     </option>
   </component>
@@ -208,29 +156,7 @@
       <recent name="$PROJECT_DIR$/Countdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.twenty_min_ruby">
-    <configuration default="false" name="instance_vars" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="test" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/instance_vars.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.if_test">
     <configuration default="false" name="super" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="test" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -319,6 +245,28 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="if_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="test" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/if_test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -401,19 +349,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.instance_vars" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.super" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.count_down" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.tester" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.super" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.count_down" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.tester" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.if_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.tester" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.count_down" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.super" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.instance_vars" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.if_test" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.tester" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.count_down" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.super" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +404,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -561,6 +509,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/twenty_min_ruby">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="45" selection-start="947" selection-end="947" vertical-scroll-proportion="1.7985611" vertical-offset="0" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Countdown/tester.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="44" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
@@ -568,9 +523,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twenty_min_ruby">
+    <entry file="file://$PROJECT_DIR$/if_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="45" selection-start="947" selection-end="947" vertical-scroll-proportion="0.46043167" vertical-offset="558" max-vertical-offset="975">
+        <state line="5" column="25" selection-start="63" selection-end="63" vertical-scroll-proportion="0.17985612" vertical-offset="0" max-vertical-offset="417">
           <folding />
         </state>
       </provider>
