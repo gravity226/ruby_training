@@ -12,6 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test@loop_step_through.coverage" NAME="loop_step_through Coverage Results" MODIFIED="1395183187043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@instance_vars.coverage" NAME="instance_vars Coverage Results" MODIFIED="1394557799870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@or_equals_test.coverage" NAME="or_equals_test Coverage Results" MODIFIED="1395158224079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@if_test.coverage" NAME="if_test Coverage Results" MODIFIED="1395157611583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
@@ -52,10 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="or_equals_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="or_equals_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/or_equals_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.8633093" vertical-offset="0" max-vertical-offset="450">
+            <state line="24" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop_step_through.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loop_step_through.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="19" selection-start="859" selection-end="859" vertical-scroll-proportion="0.4964029" vertical-offset="888" max-vertical-offset="1335">
               <folding />
             </state>
           </provider>
@@ -82,6 +92,7 @@
         <option value="$PROJECT_DIR$/twenty_min_ruby" />
         <option value="$PROJECT_DIR$/if_test.rb" />
         <option value="$PROJECT_DIR$/or_equals_test.rb" />
+        <option value="$PROJECT_DIR$/loop_step_through.rb" />
       </list>
     </option>
   </component>
@@ -153,29 +164,7 @@
       <recent name="$PROJECT_DIR$/Countdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.or_equals_test">
-    <configuration default="false" name="count_down" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="test" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Countdown" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Countdown/count_down.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.loop_step_through">
     <configuration default="false" name="tester" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="test" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -264,6 +253,28 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="loop_step_through" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="test" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/loop_step_through.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -346,19 +357,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.count_down" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.tester" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.if_test" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.or_equals_test" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.tester" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.if_test" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.or_equals_test" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.loop_step_through" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.or_equals_test" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.if_test" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.tester" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.count_down" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.loop_step_through" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.or_equals_test" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.if_test" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.twenty_min_ruby" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.tester" />
       </list>
     </recent_temporary>
   </component>
@@ -529,7 +540,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/or_equals_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.8633093" vertical-offset="0" max-vertical-offset="450">
+        <state line="24" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loop_step_through.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="19" selection-start="859" selection-end="859" vertical-scroll-proportion="0.4964029" vertical-offset="888" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
