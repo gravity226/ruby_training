@@ -7,6 +7,7 @@ event_month = 3
 current_year = 2014
 month_num = event_month
 total_days_left = 0
+
 if month_num > current_month
   until (month_num - 1) < (current_month + 1)  do
     puts month_num
