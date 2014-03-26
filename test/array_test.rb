@@ -83,4 +83,15 @@ e[0].push('Tommy')
 e[0].push('Jay')
 e[0].push('Martin')
 
+e.push(['Tommy', 'ben'])
+
 puts "#{e[0][0]} #{e[0][1]} #{e[0][2]}"
+
+x = 0
+f = [['Tommy', 'r', 3], ['frog', 'p', 52]]
+
+f.delete_at(x)
+
+f.each do |t|
+  puts t
+end
