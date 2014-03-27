@@ -30,8 +30,8 @@
     <SUITE FILE_PATH="coverage/test@array_test.coverage" NAME="array_test Coverage Results" MODIFIED="1395860991762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@test.coverage" NAME="test Coverage Results" MODIFIED="1394550112761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@random_test.coverage" NAME="random_test Coverage Results" MODIFIED="1395689281012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
-    <SUITE FILE_PATH="coverage/test@task_manager_v2.coverage" NAME="task_manager_v2 Coverage Results" MODIFIED="1395861989235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task" MODULE_NAME="test" />
-    <SUITE FILE_PATH="coverage/test@test_code.coverage" NAME="test_code Coverage Results" MODIFIED="1395851030275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task" MODULE_NAME="test" />
+    <SUITE FILE_PATH="coverage/test@task_manager_v2.coverage" NAME="task_manager_v2 Coverage Results" MODIFIED="1395934506764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task" MODULE_NAME="test" />
+    <SUITE FILE_PATH="coverage/test@test_code.coverage" NAME="test_code Coverage Results" MODIFIED="1395934039512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task" MODULE_NAME="test" />
     <SUITE FILE_PATH="coverage/test@binary_test.coverage" NAME="binary_test Coverage Results" MODIFIED="1395327059424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="test" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -76,7 +76,7 @@
       <file leaf-file-name="task_manager_v2.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task/task_manager_v2.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="43" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.41247" vertical-offset="758" max-vertical-offset="1215">
+            <state line="48" column="18" selection-start="1287" selection-end="1287" vertical-scroll-proportion="1.7266186" vertical-offset="0" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="test_code.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task/test_code.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+            <state line="25" column="8" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="task_array_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task/task_array_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="660">
+            <state line="39" column="0" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -129,10 +129,10 @@
         <option value="$PROJECT_DIR$/binarySubtraction/binary_subtraction.rb" />
         <option value="$PROJECT_DIR$/random_test.rb" />
         <option value="$PROJECT_DIR$/task/tack_array_test.rb" />
-        <option value="$PROJECT_DIR$/task/task_array_test.rb" />
         <option value="$PROJECT_DIR$/task/task_manager.rb" />
-        <option value="$PROJECT_DIR$/task/test_code.rb" />
         <option value="$PROJECT_DIR$/array_test.rb" />
+        <option value="$PROJECT_DIR$/task/task_array_test.rb" />
+        <option value="$PROJECT_DIR$/task/test_code.rb" />
         <option value="$PROJECT_DIR$/task/task_manager_v2.rb" />
       </list>
     </option>
@@ -440,8 +440,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Ruby.task_manager_v2" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.array_test" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.test_code" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.test_code" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.array_test" />
         <item index="3" class="java.lang.String" itemvalue="Ruby.task_array_test" />
         <item index="4" class="java.lang.String" itemvalue="Ruby.task_manager" />
       </list>
@@ -676,20 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/task_array_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/test_code.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/task_manager.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="5" selection-start="1041" selection-end="1064" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1290">
@@ -704,9 +690,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task/task_array_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/test_code.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="8" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task/task_manager_v2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="43" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.41247" vertical-offset="758" max-vertical-offset="1215">
+        <state line="48" column="18" selection-start="1287" selection-end="1287" vertical-scroll-proportion="1.7266186" vertical-offset="0" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>

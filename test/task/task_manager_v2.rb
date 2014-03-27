@@ -27,8 +27,10 @@ def modify_pool (people_array)
   while x < people_array.count - 1
     if people_array[x][3] > people_array[x + 1][3]
       people_array.delete_at(x)
+      x = 0
     elsif people_array[x][3] < people_array[x + 1][3]
       people_array.delete_at(x + 1)
+      x = 0
     else
       x += 1
     end
@@ -36,13 +38,23 @@ def modify_pool (people_array)
   return people_array
 end
 
-# Create pool of people and add how many tasks they have
+# Create pool of people and set default number of tasks to zero
 person_pool = Array.new(personnel_array)
 x = 0
 person_pool.each do
   person_pool[x].push(0)
-  puts person_pool[x][3]
   x += 1
+end
+
+# Assignment tasks
+task_array.each do |t|
+  modify_pool_var = Array.new(person_pool)
+  modify_pool_var = modify_pool(modify_pool_var)
+  chosen_person = get_person(modify_pool_var)
+  x = person_pool.flatten.index(chosen_person) / 4 # chosen person's number
+  person_pool[x][3] += 1 # add 1 to chosen person's tasks
+
+  assignment_array.push([chosen_person, t])
 end
 
 # How many tasks for each person..
@@ -53,23 +65,7 @@ person_pool.each do
 end
 
 puts ''
-puts '------------'
-puts ''
-
-task_array.each do |t|
-  modify_pool_var = Array.new(person_pool)
-  modify_pool_var = modify_pool(modify_pool_var)
-  chosen_person = get_person(modify_pool_var)
-  x = person_pool.index(chosen_person).to_i
-  person_pool[x][3] += 1
-  puts "Random person: #{chosen_person}"
-
-  assignment_array.push([chosen_person, t])
-end
-
-puts ''
 assignment_array.each_index do |t|
   print "#{assignment_array[t][0]} - #{assignment_array[t][1]}"
   puts
 end
-

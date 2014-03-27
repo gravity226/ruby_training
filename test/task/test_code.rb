@@ -14,3 +14,15 @@ end
 
 x = 0
 puts person_pool[x][3] > person_pool[x + 1][3]
+
+puts ''
+puts '---------'
+
+a = "Chris"
+
+b = person_pool.flatten.index(a)
+
+puts b/4
+puts 0/4
+
+puts person_pool.count
